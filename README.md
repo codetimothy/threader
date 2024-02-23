@@ -15,17 +15,17 @@ This is a multi-threaded extension library, excellent architecture, elegant code
 code example
 ---
 
-''' c++
+```c++
 
-    #include <iostream>  
-    int main() {  
-        SimpleThreadPool pool(4);  
-        for (int i = 0; i < 10; ++i) {  
-            pool.addTask([i]() {  
-                std::cout << "Task " << i << " executed by thread " << std::this_thread::get_id() << std::endl;  
-            });  
-        }  
-        pool.wait();  
-        return 0;  
+#include <iostream>  
+int main() {  
+    SimpleThreadPool pool(4);  
+    for (int i = 0; i < 10; ++i) {  
+        pool.addTask([i]() {  
+        std::cout << "Task " << i << " executed by thread " << std::this_thread::get_id() << std::endl;  
+        });  
     }  
-'''
+    pool.wait();  
+    return 0;  
+}  
+```
