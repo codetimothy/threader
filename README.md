@@ -1,5 +1,5 @@
 # Threader
-> Note:This file can be enabled on <span color="lightblue">Windows</span>, Linux🐧 distributions, Mac OS🍎 and other operating systems.
+> Note:This file can be enabled on <span color="lightblue">Windows</span>, Linux🐧 distributions, Mac OS X🍎 and other operating systems.
 ---   
 This is a multi-threaded extension library, excellent architecture, elegant code, compact package, greatly compatibility become its characteristics!
 ---
